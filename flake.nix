@@ -17,15 +17,15 @@
 
     ### FLAKE INPUTS FOR DEPLOYMENTS BELOW ###
     spetsctf = {
-      url = "github:fdABB-Gym-Samuel/SpetsCTF/9be634e60ff420d969cfe4d91432fbc9d1b137a4";
+      url = "git+https://git@github.com/fdABB-Gym-Samuel/SpetsCTF?rev=9be634e60ff420d969cfe4d91432fbc9d1b137a4";
       inputs.nixpkgs.follows = "nixpkgs-unstable";
     };
     aulabokning = {
-      url = "git+ssh://git@github.com/eritho23/aulabokning?rev=741e439f808b822bb3fff049c78d9028da6d9434";
+      url = "git+https://git@github.com/eritho23/aulabokning?rev=741e439f808b822bb3fff049c78d9028da6d9434";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     echoloungeuf = {
-      url = "git+ssh://git@github.com/Miraengel/GYARTE";
+      url = "git+https://git@github.com/Miraengel/GYARTE";
       flake = false;
     };
     ### END FLAKE INPUTS FOR DEPLOYMENTS ###
